@@ -1,0 +1,44 @@
+/*JavaScript final project September 2, 2025*/
+/*Name this external file gallery.js*/
+
+function upDate(previewPic){
+ /* In this function you should 
+    1) change the url for the background image of the div with the id = "image" 
+    to the source file of the preview image
+    
+    2) Change the text  of the div with the id = "image" 
+    to the alt text of the preview image 
+    */
+        console.log(previewPic.alt, previewPic.src);
+ 
+        document.getElementById("image").innerText = previewPic.alt ;
+
+        document.getElementById("image").style.backgroundImage = 'url("' + previewPic.src + '")' ;
+
+	}
+
+	function unDo(){
+     /* In this function you should 
+    1) Update the url for the background image of the div with the id = "image" 
+    back to the orginal-image.  You can use the css code to see what that original URL was
+    
+    2) Change the text  of the div with the id = "image" 
+    back to the original text.  You can use the html code to see what that original text was
+    */
+        document.getElementById("image").innerText = "Hover over an image below to display here." ;
+
+        document.getElementById("image").style.backgroundImage = 'url("")' ;
+
+	}
+
+function tabVisit(){
+       
+    wcImages = document.querySelectorAll(".preview")
+    for (var i = 0; i < wcImages.length; i++) {
+        console.log("hmmm"+ i)
+
+        wcImages[i].setAttribute("tabindex","0")
+    }
+
+
+}
