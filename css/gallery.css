@@ -4,10 +4,10 @@ body{
 		margin: 2%;
 		border: 5px double #948d70;
 		background-color: #b3aac4;
-    color:rgba(89, 76, 160, 0.815)
+    color:#220e94d0
 }
 
-h2{
+h1{
   text-align: center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-image: url('');
@@ -57,12 +57,12 @@ footer{
   border: 2px solid #948d70;
   border-style: dotted hidden dotted;
   margin: 5%;
-  font-size: 85%;
+  font-size: 90%;
 }
 a:link {
-  color: #887723;
+  color: #5a3b02;
 }
 
 a:visited {
-  color: #735985;
+  color: #3f3149;
 }
