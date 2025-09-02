@@ -4,14 +4,13 @@ body{
 		margin: 2%;
 		border: 5px double #948d70;
 		background-color: #b3aac4;
-    color:#220e94d0
+    	color:#220e94d0
 }
 
 h1{
   text-align: center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-image: url('');
-  border: 2px solid #948d70;
+  border: 2px #948d70;
   border-style: dotted hidden dotted;
   padding: 5px; 
 }
